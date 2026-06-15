@@ -1,5 +1,31 @@
 # AI 任务模型：Roo Code 任务编排自定义模式 - 国王模式（King）
 
+<!-- starswhere-docs-overview -->
+
+## 项目概览
+
+**定位**：一个 Roo Code 自定义模式集合，集中维护 king modes 的 JSON 配置和使用说明。
+
+**核心功能**：
+- 提供 `king_modes.json` 模式配置
+- README 说明导入和角色用途
+- 适合统一团队 AI 开发模式
+- 包含许可证文件
+
+**技术栈**：JSON 配置、Roo Code 自定义模式。
+
+**目录与模块**：`king_modes.json` 是模式集合；`README.md` 说明使用方式；`LICENSE.txt` 说明授权。
+
+**使用方式**：在 Roo Code 或兼容工具中导入 `king_modes.json`，按 README 选择模式。
+
+**配置说明**：模式角色、规则和提示词均在 JSON 中维护。
+
+**适用场景**：适合 AI 编程模式管理、团队 prompt 规范和个人工作流复用。
+
+**注意事项**：导入前应确认工具支持的 schema，避免字段不兼容导致模式失效。
+
+<!-- /starswhere-docs-overview -->
+
 ## 简介
 
 本项目提供了一个针对 Roo Code 插件的自定义模式配置，即**国王模式（King）**，旨在帮助用户更高效地利用 Roo Code 的任务编排（Boomerang Tasks）功能。通过这个自定义模式，您可以轻松地将复杂的开发任务分解、委托给不同的专业模式处理，从而提升工作效率和项目管理能力。
